@@ -1,0 +1,60 @@
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s084: Started on Mar 24, 2023 at 20:42:23 CST
+irun
+	-f ncvlog.f
+		LCD_CTRL.v
+		testfixture.v
+		-v ~/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+		+notimingchecks
+		+debug
+		+access+r
+	-loadpli1 debpli:novas_pli_boot
+file: LCD_CTRL.v
+                            case (i) begin
+                                         |
+ncvlog: *E,ILLPRI (LCD_CTRL.v,104|41): illegal expression primary [4.2(IEEE)].
+                                0 : window[i] <= window[1];
+                                |
+ncvlog: *E,NOTSTT (LCD_CTRL.v,105|32): expecting a statement [9(IEEE)].
+                            end
+                              |
+ncvlog: *E,ILLPRI (LCD_CTRL.v,109|30): illegal expression primary [4.2(IEEE)].
+                        end
+                          |
+ncvlog: *E,ILLPRI (LCD_CTRL.v,110|26): illegal expression primary [4.2(IEEE)].
+                        Clockwise_Rotation : begin
+                                           |
+ncvlog: *E,MISEXX (LCD_CTRL.v,111|43): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+                        Clockwise_Rotation : begin
+                                                 |
+ncvlog: *E,FNDKWD (LCD_CTRL.v,111|49): A Verilog keyword was found where an identifier was expected.
+                            case (i) begin
+                                   |
+ncvlog: *E,EXPEND (LCD_CTRL.v,112|35): Expecting the keyword 'end' [12.1.3(IEEE 2001)].
+                        end
+                          |
+ncvlog: *E,UMGENE (LCD_CTRL.v,118|26): An 'endgenerate' is expected [12.1.3(IEEE 2001)].
+                        end
+                          |
+ncvlog: *E,EXPENM (LCD_CTRL.v,118|26): expecting the keyword 'endmodule' [12.1(IEEE)].
+endmodule
+        |
+ncvlog: *E,UMGENE (LCD_CTRL.v,291|8): An 'endgenerate' is expected [12.1.3(IEEE 2001)].
+	module worklib.LCD_CTRL:v
+		errors: 10, warnings: 0
+file: testfixture.v
+initial	$readmemh (`CMD,    cmd_mem);
+       	              |
+ncvlog: *E,NOTDIR (testfixture.v,74|22): `CMD: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+initial	$readmemh (`EXPECT, out_mem);
+       	                 |
+ncvlog: *E,NOTDIR (testfixture.v,75|25): `EXPECT: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+	module worklib.test:v
+		errors: 2, warnings: 0
+	@ (negedge reset) $readmemb (`IMAGE , sti_M);
+	                                  |
+ncvlog: *E,NOTDIR (testfixture.v,177|35): `IMAGE: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+	module worklib.IROM:v
+		errors: 1, warnings: 0
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s084: Exiting on Mar 24, 2023 at 20:42:23 CST  (total: 00:00:00)

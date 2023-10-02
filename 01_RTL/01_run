@@ -1,0 +1,8 @@
+cat /etc/redhat-release  | tee version.log
+if   grep -i -q '7' 'version.log'; then
+    # irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot
+    ncverilog testfixture.v LCD_CTRL.v +define+tb3 +access+r -loadpli1 debpli:novas_pli_boot
+else
+    ncverilog testfixture.v LCD_CTRL.v +define+tb3 +access+r
+    #irun -f ncvlog.f
+fi

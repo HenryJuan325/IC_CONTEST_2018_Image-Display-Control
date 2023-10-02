@@ -1,0 +1,7 @@
+dc_shell-t -f DC_syn.tcl | tee syn.log
+
+# 03_GATE need sdf file
+design = $1
+ln -s $design_syn.sdf ../03_GATE/
+ln -s $design_syn.v ../03_GATE/
+

@@ -1,0 +1,6 @@
+cat /etc/redhat-release  | tee version.log
+if   grep -i -q '7' 'version.log'; then
+    ncverilog -f ncvlog.f +define+tb$1 -loadpli1 debpli:novas_pli_boot
+else
+    ncverilog -f ncvlog.f +define+tb1 
+fi

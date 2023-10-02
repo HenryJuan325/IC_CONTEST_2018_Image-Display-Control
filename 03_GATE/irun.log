@@ -1,0 +1,15 @@
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s084: Started on Mar 24, 2023 at 21:03:05 CST
+irun
+	-f ncvlog.f
+		design_syn.v
+		-timescale 1ns/10ps
+		testbench.v
+		-v ~/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+		+define+SDF
+		+ncmaxdelays
+		+debug
+	-loadpli1 debpli:novas_pli_boot
+irun: *E,FILEMIS: Cannot find the provided file design_syn.v.
+irun: *E,FILEMIS: Cannot find the provided file testbench.v.
+TOOL:	irun(64)	15.20-s084: Exiting on Mar 24, 2023 at 21:03:05 CST  (total: 00:00:00)

@@ -1,0 +1,30 @@
+s1(24Mar2023:20:42:15):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s2(24Mar2023:20:42:23):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s3(24Mar2023:20:44:09):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s4(24Mar2023:20:45:04):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s5(24Mar2023:20:45:31):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s6(24Mar2023:20:46:35):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s7(24Mar2023:20:48:44):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s8(24Mar2023:20:49:27):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s9(24Mar2023:20:49:37):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s10(24Mar2023:20:50:16):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s11(24Mar2023:20:55:47):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s12(24Mar2023:20:57:48):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s13(24Mar2023:20:58:22):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s14(24Mar2023:20:59:38):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s15(24Mar2023:21:04:08):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s16(24Mar2023:21:44:44):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s17(24Mar2023:21:45:06):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s18(24Mar2023:21:45:38):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s19(24Mar2023:21:46:18):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s20(24Mar2023:21:46:33):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s21(24Mar2023:21:46:55):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s22(24Mar2023:21:55:46):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s23(24Mar2023:22:01:10):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s24(24Mar2023:22:26:51):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s25(24Mar2023:22:27:19):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s26(24Mar2023:22:32:06):  ncverilog testfixture.v LCD_CTRL.v +define+tb2 +access+r -loadpli1 debpli:novas_pli_boot 
+s27(24Mar2023:22:32:15):  ncverilog testfixture.v LCD_CTRL.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot 
+s28(24Mar2023:22:32:26):  ncverilog testfixture.v LCD_CTRL.v +define+tb3 +access+r -loadpli1 debpli:novas_pli_boot 
+s29(25Mar2023:00:53:17):  ncverilog testfixture.v LCD_CTRL.v +define+tb3 +access+r -loadpli1 debpli:novas_pli_boot 
+s30(27Mar2023:21:51:45):  ncverilog testfixture.v LCD_CTRL.v +define+tb3 +access+r -loadpli1 debpli:novas_pli_boot 

@@ -1,0 +1,2 @@
+s1(24Mar2023:20:42:15):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 
+s2(24Mar2023:20:42:23):  irun -f ncvlog.f -loadpli1 debpli:novas_pli_boot 

@@ -1,0 +1,9 @@
+s1(24Mar2023:22:30:51):  ncverilog testfixture.v LCD_CTRL_syn.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot -v /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v 
+s2(24Mar2023:22:33:41):  ncverilog testfixture.v LCD_CTRL_syn.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot -v /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v 
+s3(24Mar2023:22:34:55):  ncverilog testfixture.v LCD_CTRL_syn.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot -v /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v -timescale 1ns/10ps 
+s4(24Mar2023:22:36:37):  ncverilog testfixture.v LCD_CTRL_syn.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot -v /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v -timescale 1ns/10ps 
+s5(24Mar2023:22:37:55):  ncverilog testfixture.v LCD_CTRL_syn.v +define+tb1 +access+r -loadpli1 debpli:novas_pli_boot -v /RAID2/COURSE/si2_contest/si2_contest004/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v -timescale 1ns/10ps 
+s6(24Mar2023:22:43:54):  ncverilog -f ncvlog.f +define+tb1 -loadpli1 debpli:novas_pli_boot - 
+s7(24Mar2023:22:44:25):  ncverilog -f ncvlog.f +define+tb1 -loadpli1 debpli:novas_pli_boot 
+s8(24Mar2023:22:45:10):  ncverilog -f ncvlog.f +define+tb2 -loadpli1 debpli:novas_pli_boot 
+s9(24Mar2023:22:45:15):  ncverilog -f ncvlog.f +define+tb3 -loadpli1 debpli:novas_pli_boot 
